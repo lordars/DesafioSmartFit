@@ -1,0 +1,80 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8px;
+    background-color: #e2dddd;
+    border-radius: 8px;
+    -webkit-box-shadow: -1px 1px 5px 10px rgba(77, 75, 75, 0.39);
+    -moz-box-shadow: -1px 1px 5px 10px rgba(94, 94, 94, 0.39);
+    box-shadow: -1px 1px 5px 10px rgba(107, 107, 107, 0.39);
+
+    gap: 8px;
+    width: 250px;
+    height: 350px;
+}
+
+span {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--red);
+}
+
+span.opened {
+    color: var(--green);
+}
+
+h3 {
+    color: var(--dark-grey);
+    font-size: 24px;
+    font-weight: 'bold';
+}
+
+p {
+    color: var(--light-grey);
+    font-size: 14px;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    color: var(--dark-grey);
+    font-weight: 500;
+    font-size: 12px;
+
+
+}
+
+li b {
+    color: var(--dark-grey);
+    font-size: 16px;
+
+}
+
+.types {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.card .divider {
+    height: 2px;
+    width: 100%;
+    background-color: var(--light-text);
+}
