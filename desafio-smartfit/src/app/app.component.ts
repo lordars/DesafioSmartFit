@@ -9,11 +9,13 @@ import { CardsListComponent } from './components/cards-list/cards-list.component
 import { CommonModule } from '@angular/common';
 import { GetUnitsService } from './services/get-units.service';
 import { Location } from './types/location.interface';
+import { LegendComponent } from './components/legend/legend.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, FormsComponent, ReactiveFormsModule, HttpClientModule, CardsListComponent, CommonModule],
+  imports: [RouterOutlet, HeaderComponent, FormsComponent, ReactiveFormsModule, HttpClientModule, CardsListComponent, CommonModule, LegendComponent, FooterComponent],
   providers: [],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

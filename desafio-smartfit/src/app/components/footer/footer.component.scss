@@ -1,0 +1,25 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 100vw;
+    gap: 1px;
+    background-color: var(--dark-grey-white);
+
+}
+
+footer .logo-container {
+    padding: 10px;
+
+    max-height: 10%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+footer .logo-container img {
+    height: 40px;
+}
